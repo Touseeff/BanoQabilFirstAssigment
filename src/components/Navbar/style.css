@@ -1,0 +1,22 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: #333; /* Set background color for the navbar */
+    padding: 15px; /* Add padding for better spacing */
+}
+
+.nav-list {
+    list-style: none; /* Remove default list styles */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Display list items in a row */
+}
+
+.nav-item {
+    margin-right: 15px; /* Add spacing between navigation items */
+    color: #fff; /* Set text color to white */
+    text-decoration: none; /* Remove default underline style */
+    cursor: pointer;
+    font-weight: bold; /* Set font weight to bold */
+}
+

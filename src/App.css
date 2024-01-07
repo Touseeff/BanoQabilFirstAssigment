@@ -24,9 +24,9 @@
   color: white;
 }
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+/* App.css */
+
+.app-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media (max-width: 1200px) {
+  .app-container {
+      justify-content: space-around;
+  }
+}
+
+@media (max-width: 800px) {
+  .app-container {
+      justify-content: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .app-container {
+      justify-content: flex-start;
+  }
+}
+

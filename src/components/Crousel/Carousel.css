@@ -1,0 +1,15 @@
+/* Carousel.css */
+
+.carousel-container {
+    max-width: 1200px; /* Set maximum width for the carousel container */
+    margin: auto; /* Center the carousel */
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    max-width: 1200px; /* Make sure images don't exceed the container width */
+    max-height: 600px; /* Set maximum height for the images */
+}
